@@ -10,9 +10,9 @@ This code extracts textual metrics to compare reports **before** (2023) and **af
 
 | Dimension | Metrics | Research question |
 |-----------|---------|-------------------|
-| **Complexity** | Fog Index, Flesch | Is the text harder to read? |
-| **Length** | Word/page count | Are reports getting longer? |
-| **Tone** | FinBERT, ClimateBERT | Is the tone more positive or negative? |
+| **Complexity** | Fog Index, flesch_reading_ease, flesch_kincaid_grade | Is the text harder to read? |
+| **Length** | ln_pages, ln_chars | Are reports getting longer? |
+| **Tone** | Loughran-McDonald, FinBERT, ClimateBERT | Is the tone more positive or negative? |
 
 ## 🚀 Getting Started (Step by Step)
 
