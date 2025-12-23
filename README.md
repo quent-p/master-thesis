@@ -1,12 +1,12 @@
-# 📊 Sustainability Report Analysis (CSRD)
+# Sustainability Report Analysis (CSRD)
 
 Python script to automatically analyze sustainability reports in PDF format.
 
-## 🎯 Purpose
+## Purpose
 
 This code extracts textual metrics to compare reports **before** (2023) and **after** (2024) the EU's CSRD directive came into effect.
 
-## 📈 What the script measures
+## What the script measures
 
 | Dimension | Metrics | Research question |
 |-----------|---------|-------------------|
@@ -14,7 +14,7 @@ This code extracts textual metrics to compare reports **before** (2023) and **af
 | **Length** | ln_pages, ln_chars | Are reports getting longer? |
 | **Tone** | Loughran-McDonald, FinBERT, ClimateBERT | Is the tone more positive or negative? |
 
-## 🚀 Getting Started (Step by Step)
+## Getting Started (Step by Step)
 
 ### Step 1: Install Python
 
@@ -29,7 +29,7 @@ Open a terminal (Command Prompt on Windows, Terminal on Mac) and run:
 pip install pandas PyMuPDF pdfminer.six transformers torch tqdm openpyxl
 ```
 
-> ⏳ This may take a few minutes (especially for `torch` and `transformers`)
+> This may take a few minutes (especially for `torch` and `transformers`)
 
 ### Step 3: Set up your folders
 
@@ -57,7 +57,7 @@ python analyse_rapports_2.py
 
 Once finished, open `Desktop/analyse_rapports_UNIFIED.xlsx` — all metrics are there! 🎉
 
-## 📝 Notes
+## Notes
 
 - Minimum threshold: 3,000 words and 100 sentences per report
 - FinBERT and ClimateBERT models are downloaded automatically
