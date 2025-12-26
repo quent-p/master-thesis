@@ -61,8 +61,6 @@ Once finished, open `Desktop/analyse_rapports_UNIFIED.xlsx` — all metrics are 
 
 - Minimum threshold: 3,000 words and 100 sentences per report
 - FinBERT and ClimateBERT models are downloaded automatically
-- The script resumes where it left off (no recalculation if already done)
-
 ---
 
 *Developed as part of a Master's thesis in sustainability accounting.*
