@@ -55,7 +55,7 @@ python analyse_rapports_2.py
 
 ### Step 6: Get your results
 
-Once finished, open `Desktop/analyse_rapports_UNIFIED.xlsx` all metrics are there! 🎉
+Once finished, open `Desktop/analyse_rapports_UNIFIED.xlsx` all metrics are there! 
 
 ## Notes
 
